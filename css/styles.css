@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.indexHeader {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1491185474061-a1dad922eeab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=90262898b8d8ecb251f108fe9be21306&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  color: #fff;
+}
+
+.indexHeaderText {
+  text-align: center;
+}
+
+.indexHeaderText h1 {
+  font-size: 5em;
+}
+
+.indexHeaderText h2 {
+  font-size: 3em;
+  margin-bottom: 2em;
+}
+
+.button {
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+}
