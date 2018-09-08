@@ -16,18 +16,20 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 8.333%);
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1491185474061-a1dad922eeab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=90262898b8d8ecb251f108fe9be21306&auto=format&fit=crop&w=500&q=60");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1515823808611-65fd8e56c71a?ixlib=rb-0.3.5&s=b527148a116687205b49734c03bb3e33&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: #fff;
 }
 
 .logo {
+  font-size: 4vw;
   margin: 1em;
 }
 
 nav {
   width: 100%;
-  grid-column: 3 / 13;
+  margin: 2em 0 0 0;
+  grid-column: 3 / 12;
 }
 
 ul {
@@ -39,6 +41,11 @@ li {
   margin: 1em;
   display: inline ;
   list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .indexHeaderText {
@@ -59,12 +66,10 @@ li {
   display: inline-block;
   grid-column: 1 / 8;
   border: 3px solid #fff;
-  color: #fff;
   margin-top: 1em;
   padding: 1em;
   border-radius: 5px;
   font-size: 2vw;
-  text-decoration: none;
 }
 
 section {
